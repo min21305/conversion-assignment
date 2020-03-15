@@ -1,9 +1,0 @@
-com\conversions\conversion\service\ConversionServiceImpl.class
-com\conversions\conversion\controller\ConversionController.class
-com\conversions\conversion\calculation\ConversionCalculator.class
-com\conversions\conversion\ConversionsApplication.class
-com\conversions\conversion\exception\ExceptionResolver.class
-com\conversions\conversion\config\SwaggerConfig.class
-com\conversions\conversion\exception\model\InvalidEntryException.class
-com\conversions\conversion\response\CalculationResponse.class
-com\conversions\conversion\service\ConversionService.class
