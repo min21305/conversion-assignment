@@ -5,8 +5,7 @@ import io.swagger.annotations.ApiModel;
 import java.io.Serializable;
 import java.util.Objects;
 
-@ApiModel(description = "Generic Response",
-        value = "Generic Response value")
+@ApiModel(description = "Generic Response", value = "Generic Response value")
 public class CalculationResponse implements Serializable {
 
     private static final long serialVersionUID = -2009657402718117058L;
@@ -16,6 +15,25 @@ public class CalculationResponse implements Serializable {
 
     public CalculationResponse(String calculatedValue, long timeConsumed) {
         this.calculatedValue = calculatedValue;
+        this.timeConsumed = timeConsumed;
+    }
+
+    public CalculationResponse() {
+    }
+
+    public String getCalculatedValue() {
+        return calculatedValue;
+    }
+
+    public void setCalculatedValue(String calculatedValue) {
+        this.calculatedValue = calculatedValue;
+    }
+
+    public long getTimeConsumed() {
+        return timeConsumed;
+    }
+
+    public void setTimeConsumed(long timeConsumed) {
         this.timeConsumed = timeConsumed;
     }
 
